@@ -90,13 +90,13 @@ function NodeInList(entity) {
 }
 
 var linkedList = new LinkedList();
-for (var i=0; i<1000000; i++) {
+for (var i=0; i<1000; i++) {
     linkedList.add("Element " +i);
 }
 
-linkedList.get(2);
+linkedList.get(500);
 console.log("_________");
-linkedList.insert(2, "Lalala");
+linkedList.insert(500, "Lalala");
 console.log("_________");
-linkedList.remove("Element 1");
+linkedList.remove("Element 500");
 

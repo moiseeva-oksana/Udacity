@@ -1,0 +1,15 @@
+                        1000 elements
+            get()       insert()        remove()
+LinkedList   1              4               3
+Array
+
+                        1_000_000 elements
+            get()       insert()        remove()
+LinkedList   7              13            400
+Array
+
+
+                        10_000_000 elements
+            get()       insert()        remove()
+LinkedList   39            96             10361
+Array
