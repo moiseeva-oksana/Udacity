@@ -1,0 +1,23 @@
+                        1000 elements*
+            get(first)      insert(first)     remove(first)   get(middle)    insert(middle)   remove(middle)   get(last)    insert(last)      remove(last)
+LinkedList      0               0                   1              0              0                1                1            1                  1
+Array           0               0                   0              0              0                0                0            0                  0
+
+* In JavaScript it's not possible more accurately than in milliseconds
+
+
+
+                        1_000_000 elements
+            get(first)      insert(first)     remove(first)   get(middle)   insert(middle)    remove(middle)   get(last)     insert(last)     remove(last)
+LinkedList       1              2                 0                  7              11              444            11            24                930
+Array            0             19                19                  0              10               11             1            0                  0
+
+
+
+
+
+
+                        10_000_000 elements
+            get(first)      insert(first)     remove(first)   get(middle)   insert(middle)    remove(middle)    get(last)     insert(last)     remove(last)
+LinkedList      0                0                  1               39            76             10012              77              165            139786
+Array           0               186                190              0             100              90                0               0                0
