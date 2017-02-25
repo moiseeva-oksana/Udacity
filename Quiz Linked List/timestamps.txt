@@ -3,7 +3,7 @@
 LinkedList      0               0                   1              0              0                1                1            1                  1
 Array           0               0                   0              0              0                0                0            0                  0
 
-* In JavaScript it's not possible more accurately than in milliseconds
+* In JavaScript it's not possible to measure time more accurately than in milliseconds
 
 
 
